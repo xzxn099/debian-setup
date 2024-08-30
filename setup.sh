@@ -20,3 +20,6 @@ sudo apt install unzip
 ./rust/setup.sh
 ./javascript/nodejs/setup.sh
 ./javascript/bun/setup.sh
+
+figlet "~ * Ready * ~" -f slant
+
