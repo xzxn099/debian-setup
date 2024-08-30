@@ -6,6 +6,6 @@ wget -P ~/Downloads/btop https://github.com/aristocratos/btop/releases/download/
 
 tar -xjf ~/Downloads/btop/btop-x86_64-linux-musl.tbz -C ~/Downloads/btop
 
-cd ~/Downloads/btop/btop-*
+cd ~/Downloads/btop/btop
 
 sudo make install
