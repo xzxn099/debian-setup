@@ -2,7 +2,7 @@ figlet "NodeJS" -f slant
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
-source ~/.bashrc
+bash
 
 nvm install 20
 
