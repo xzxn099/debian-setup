@@ -28,8 +28,3 @@ sudo apt install unzip
 
 figlet "~ * Ready * ~" -f slant
 
-echo "Exiting in 3s to apply changes..."
-
-sleep 3
-
-exit
