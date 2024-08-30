@@ -2,7 +2,7 @@
 
 sudo apt install figlet
 
-figlet "Setting up Debian system" -f slant
+figlet "Setting up Debian system..." -f slant
 
 # sudo apt update
 # sudo apt upgrade
@@ -10,8 +10,9 @@ figlet "Setting up Debian system" -f slant
 figlet "Utils" -f slant
 
 sudo apt install gcc
-sudo apt install bzip2
 sudo apt install curl
+sudo apt install bzip2
+sudo apt install unzip
 
 ./nvim/setup.sh
 ./btop/setup.sh
