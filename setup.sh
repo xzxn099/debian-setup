@@ -9,3 +9,4 @@ sudo apt install curl
 
 ./nvim/setup.sh
 ./btop/setup.sh
+./lazygit/setup.sh
