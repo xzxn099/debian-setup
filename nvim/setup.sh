@@ -1,3 +1,5 @@
+figlet "NeoVim" -f slant
+
 wget -P ~/Downloads https://github.com/neovim/neovim-releases/releases/download/v0.10.1/nvim-linux64.deb
 
 sudo apt install ~/Downloads/nvim-linux64.deb

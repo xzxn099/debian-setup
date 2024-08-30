@@ -1,3 +1,5 @@
+figlet "BTOP" -f slant
+
 sudo apt install make
 
 mkdir -p ~/Downloads/btop
