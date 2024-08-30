@@ -1,5 +1,10 @@
 #!/bin/bash
 
+mkdir ~/Downloads 
+mkdir ~/Projects
+mkdir ~/TestProjects
+mkdir ~/Backups
+
 sudo apt install figlet
 
 figlet "Setting up Debian system..." -f slant
@@ -23,3 +28,8 @@ sudo apt install unzip
 
 figlet "~ * Ready * ~" -f slant
 
+echo "Exiting in 3s to apply changes..."
+
+sleep 3
+
+exit
