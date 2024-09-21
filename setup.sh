@@ -1,9 +1,10 @@
 #!/bin/bash
 
 mkdir ~/Downloads 
-mkdir ~/Projects
-mkdir ~/TestProjects
-mkdir ~/Backups
+
+mkdir ~/projects
+mkdir ~/test-projects
+mkdir ~/backups
 
 sudo apt install figlet
 
@@ -25,6 +26,7 @@ sudo apt install unzip
 ./rust/setup.sh
 ./javascript/nodejs/setup.sh
 ./javascript/bun/setup.sh
+./7zip/setup.sh
 
 figlet "~ * Ready * ~" -f slant
 
